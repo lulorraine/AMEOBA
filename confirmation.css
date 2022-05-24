@@ -66,6 +66,11 @@
         text-decoration: none;
     }
 
+    .footer {
+        height: 130px;
+        background-color: var(--colour-bg-purple);
+    }
+
     .footer a {
         color: var(--colour-text-yellow);
         text-decoration: none;
