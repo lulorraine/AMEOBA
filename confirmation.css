@@ -14,3 +14,46 @@
     --colour-text-yellow: #F6E61F;
     --colour-text-grey: #8F8F8F;
     }
+
+    .nav {
+        height: 150px;
+        background: var(--colour-bg-green);
+    }
+    .nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-size: 25px;
+    }
+
+    a:hover {
+        color: var(--colour-text-grey);
+    }
+
+    .thankyou {
+        font-size: 30px;
+    }
+
+    .ordernumber {
+        font-size: 20px;
+    }
+
+    .continue {
+        background-color: var(--colour-bg-purple);
+        color: var(--colour-bg-white);
+        padding: 10px 15px;
+        font: var(--font-primary);
+        font-size: 20px;
+        border-color: var(--colour-bg-purple);
+    }
+
+    body {
+        font-family: var(--font-primary);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .footer a {
+        color: var(--colour-text-yellow);
+        text-decoration: none;
+    }
