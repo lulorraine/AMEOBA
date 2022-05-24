@@ -16,8 +16,9 @@
     }
 
     .nav {
-        height: 150px;
+        height: 35px;
         background: var(--colour-bg-green);
+        padding-top: 130px;
     }
     .nav a {
         color: #FFFFFF;
