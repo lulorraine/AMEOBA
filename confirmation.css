@@ -51,6 +51,13 @@
         font: var(--font-primary);
         font-size: 20px;
         border-color: var(--colour-bg-purple);
+        border-radius: 10px;
+        cursor: pointer;
+        border: 0;
+    }
+
+    .continue:hover {
+        background-color: var(--colour-bg-green);
     }
 
     body {
