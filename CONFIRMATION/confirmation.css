@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
 :root {
     font-size: 16px;
     
@@ -19,10 +24,29 @@
     }
 
     /* NAVIGATION */
+    .position {
+        height: 85px;
+        float: left;
+        font-size: 30px;
+        display: inline-block;
+    }
+    .logo {
+        float:left;
+        height: 85px;
+        background-color: var(--colour-purple);
+        border-radius: 0 0 20px 20px;
+        color: var(--colour-white);
+        font-size: 40px;
+        text-align: center;
+        display: inline-block;
+        /* position: absolute;
+        width: 1519px; */
+    }
+    
     .nav {
         height: 35px;
         background: var(--colour-green);
-        padding-top: 130px;
+        padding-top: 90px;
         border-radius: 0 0 20px 20px;
     }
 
