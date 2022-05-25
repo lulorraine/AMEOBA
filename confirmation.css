@@ -71,6 +71,24 @@
         background-color: var(--colour-bg-purple);
     }
 
+    input {
+        height: 25px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 0;
+        border-radius: 5px;
+        font-family: var(--font-primary);
+    }
+
+    .subscribe-button {
+        background-color: var(--colour-bg-green);
+        color: var(--colour-bg-white);
+    }
+
+    .subscribe-button :hover {
+        background-color: var(--colour-bg-purple);
+    }
+
     .footer a {
         color: var(--colour-text-yellow);
         text-decoration: none;
