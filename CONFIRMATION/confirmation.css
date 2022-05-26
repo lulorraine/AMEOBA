@@ -11,8 +11,6 @@
 }
 
 :root {
-    font-size: 16px;
-    
     --font-primary: "OCR A", ocr-a-extended;
 
     --colour-white: #FFFFFF;
@@ -24,22 +22,38 @@
     }
 
     /* NAVIGATION */
-    .position {
+    .header {
+    }
+
+    .icon-bar {
+        float: left;
         height: 85px;
+        width: 1519px;
+        background-color: var(--colour-purple);
+        border-radius: 0 0 20px 20px;
+        position: fixed;
+    }
+    .position {
+        float: left;
+        height: 85px;
+        width: 217.45px;
         float: left;
         font-size: 30px;
+        padding-top: 27.5px;
+        color: var(--colour-white);
+        margin-left: 50px;
+        /* padding-left: 180px; */
     }
     .logo {
-        float:left;
+        float: left;
         height: 85px;
+        width: 144.96px;
         background-color: var(--colour-purple);
         border-radius: 0 0 20px 20px;
         color: var(--colour-white);
         font-size: 40px;
         text-align: center;
         text-decoration: none;
-        /* position: absolute;
-        width: 1519px; */
     }
     
     .nav {
