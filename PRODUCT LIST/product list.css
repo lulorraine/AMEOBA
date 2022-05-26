@@ -126,12 +126,14 @@
         background-color: #F7EDE1;
         padding: 7px;
         border-radius: 5px;
+        box-shadow: 1px 1px 5px 0 #8F8F8F;
     }
 
     .cart-1 {
         background-color: #F7EDE1;
         width: 30.8px;
-        height: 30.8px    }
+        height: 30.8px    
+    }
 
     .bar-1 {
         margin: 0 10px;
