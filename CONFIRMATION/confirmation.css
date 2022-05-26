@@ -22,40 +22,56 @@
     }
 
     /* NAVIGATION */
-    .header {
-    }
+
 
     .icon-bar {
-        float: left;
+        display: flex;
         height: 85px;
-        width: 1519px;
+        width: 100%;
         background-color: var(--colour-purple);
         border-radius: 0 0 20px 20px;
         position: fixed;
     }
-    .position {
-        float: left;
+
+    .icon-bar > a {
+        width: 50%;
+        display: block;
+        height: 145px;
         height: 85px;
-        width: 217.45px;
-        float: left;
+        margin: auto;
+    }
+
+    .confirmation {
+        width: 15%;
+        height: 85px;
+        margin: auto;
         font-size: 30px;
         padding-top: 27.5px;
         color: var(--colour-white);
-        margin-left: 50px;
-        /* padding-left: 180px; */
     }
+
     .logo {
         float: left;
         height: 85px;
         width: 144.96px;
         background-color: var(--colour-purple);
-        border-radius: 0 0 20px 20px;
         color: var(--colour-white);
         font-size: 40px;
         text-align: center;
         text-decoration: none;
     }
     
+    .icon-bar-nav {
+        width: 15%;
+        margin: auto;
+    }
+
+    .icon-bar-nav > * {
+        margin-left: 15px;
+        width: 30px;
+        height: 30px;
+    }
+
     .nav {
         height: 35px;
         background: var(--colour-green);
