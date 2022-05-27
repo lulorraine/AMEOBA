@@ -105,6 +105,12 @@
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
         border-radius: 10px;
     }
+    
+    .new-release{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
 
     img {
         width: 200px;
