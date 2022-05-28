@@ -68,6 +68,7 @@
         margin-left: 15px;
         width: 30px;
         height: 30px;
+        cursor: pointer;
     }
 
 
@@ -111,9 +112,11 @@
     justify-content: space-between;
     }
 
-    img {
+    .cover-1 {
         width: 200px;
         margin: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 0 var(--colour-grey);
     }
 
     .title-1 {
@@ -148,6 +151,7 @@
         margin: 0;
         height: 45px;
         width: 45px;
+        cursor: pointer;
     }
 
     .cart-1 {
@@ -165,9 +169,11 @@
         border-radius: 10px;
     }
 
-    img {
+    .cover-2 {
         width: 200px;
         margin: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 0 var(--colour-grey);
     }
 
     .title-2 {
@@ -202,6 +208,7 @@
         margin: 0;
         height: 45px;
         width: 45px;
+        cursor: pointer
     }
 
     .cart-2 {
@@ -219,9 +226,11 @@
         border-radius: 10px;
     }
 
-    img {
+    .cover-3 {
         width: 200px;
         margin: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 0 var(--colour-grey);
     }
 
     .title-3 {
@@ -256,6 +265,7 @@
         margin: 0;
         height: 45px;
         width: 45px;
+        cursor: pointer
     }
 
     .cart-3 {
@@ -293,10 +303,7 @@
     .subscribe-button {
         background-color: var(--colour-green);
         color: var(--colour-white);
-    }
-
-    .subscribe-button :hover {
-        background-color: var(--colour-purple);
+        cursor: pointer;
     }
 
     .footer-link {

@@ -68,6 +68,7 @@
         margin-left: 15px;
         width: 30px;
         height: 30px;
+        cursor: pointer;
     }
 
     .nav {
@@ -83,10 +84,6 @@
         text-decoration: none;
         padding: 14px 16px;
         font-size: 25px;
-    }
-
-    a:hover {
-        color: var(--colour-grey);
     }
 
     /* BODY */
@@ -141,10 +138,7 @@
     .subscribe-button {
         background-color: var(--colour-green);
         color: var(--colour-white);
-    }
-
-    .subscribe-button :hover {
-        background-color: var(--colour-purple);
+        cursor: pointer;
     }
 
     .footer-link {

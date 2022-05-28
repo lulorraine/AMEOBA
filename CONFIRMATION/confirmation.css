@@ -68,6 +68,7 @@
         margin-left: 15px;
         width: 30px;
         height: 30px;
+        cursor: pointer;
     }
 
     .nav {
@@ -146,10 +147,7 @@
     .subscribe-button {
         background-color: var(--colour-green);
         color: var(--colour-white);
-    }
-
-    .subscribe-button :hover {
-        background-color: var(--colour-purple);
+        cursor: pointer;
     }
 
     .footer-link {
