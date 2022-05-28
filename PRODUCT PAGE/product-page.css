@@ -87,6 +87,14 @@
     }
 
     /* BODY */
+    .cover {
+        height: 300px;
+        margin: 30px 0;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+    }
+
+
     body
     {
         font-family: var(--font-primary);
