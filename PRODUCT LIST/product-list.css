@@ -129,25 +129,30 @@
     }
 
     .price-1 {
+        height: 20px;
         background-color: #F7EDE1;
         padding: 7px;
         border-radius: 5px;
-        box-shadow: 1px 1px 5px 0 #8F8F8F;
-    }
-
-    .cart-1 {
-        background-color: #F7EDE1;
-        width: 30.8px;
-        height: 30.8px    
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+        margin-top: 4px;
     }
 
     .bar-1 {
         margin: 0 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .bar-1 img {
-        width: 25px;
-        height: 25px;
+        margin: 0;
+        height: 45px;
+        width: 45px;
+    }
+
+    .cart-1 {
+        margin-right: 20px;
+        /* margin-left: 40px; */
     }
 
     /* PRODUCT-2 */
