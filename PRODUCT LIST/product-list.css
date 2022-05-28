@@ -106,11 +106,17 @@
         border-radius: 10px;
     }
 
-    .new-release{
+    .new-release-1 {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     }
+
+    .new-release-2 {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
 
     .cover-1 {
         width: 200px;
@@ -156,7 +162,6 @@
 
     .cart-1 {
         margin-right: 20px;
-        /* margin-left: 40px; */
     }
 
     /* PRODUCT-2 */
@@ -213,7 +218,6 @@
 
     .cart-2 {
         margin-right: 20px;
-        /* margin-left: 40px; */
     }
 
     /* PRODUCT-3 */
@@ -270,7 +274,6 @@
 
     .cart-3 {
         margin-right: 20px;
-        /* margin-left: 40px; */
     }
 
     /* PRODUCT-4 */
@@ -327,10 +330,93 @@
 
     .cart-4 {
         margin-right: 20px;
-        /* margin-left: 40px; */
     }
 
+    /* PRODUCT-5 */
+    .box-5 {
+        width: 220px;
+        height: 380px;
+        background-color: var(--colour-white);
+        margin: 30px;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+    }
 
+    .cover {
+        width: 200px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 0 var(--colour-grey);
+    }
+
+    .album-title {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+
+    .singer {
+        margin-left: 10px;
+        margin-bottom: 8px;
+        color: var(--colour-grey);
+        font-size: 16px;
+    }
+
+    .price {
+        height: 20px;
+        background-color: #F7EDE1;
+        padding: 7px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+        margin-top: 4px;
+    }
+
+    .product-icon {
+        margin: 0 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .product-icon img {
+        margin: 0;
+        height: 45px;
+        width: 45px;
+        cursor: pointer
+    }
+
+    .cart {
+        margin-right: 20px;
+    }
+
+    /* PRODUCT-6 */
+    .box-6 {
+        width: 220px;
+        height: 380px;
+        background-color: var(--colour-white);
+        margin: 30px;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+    }
+
+    /* PRODUCT-7 */
+    .box-7 {
+        width: 220px;
+        height: 380px;
+        background-color: var(--colour-white);
+        margin: 30px;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+    }
+
+    /* PRODUCT-8 */
+    .box-8 {
+        width: 220px;
+        height: 380px;
+        background-color: var(--colour-white);
+        margin: 30px;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+    }
 
 
     /* FOOTER */
