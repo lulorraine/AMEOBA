@@ -135,6 +135,7 @@
         border: 0;
         border-radius: 5px;
         font-family: var(--font-primary);
+        box-shadow: 1px 1px 5px 0.5px var(--colour-white)
     }
 
     .subscribe-button {

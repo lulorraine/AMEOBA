@@ -105,7 +105,7 @@
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
         border-radius: 10px;
     }
-    
+
     .new-release{
     display:flex;
     flex-direction: row;
@@ -220,6 +220,7 @@
         border: 0;
         border-radius: 5px;
         font-family: var(--font-primary);
+        box-shadow: 1px 1px 5px 0.5px var(--colour-white)
     }
 
     .subscribe-button {
