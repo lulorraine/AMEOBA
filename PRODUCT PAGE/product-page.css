@@ -50,8 +50,8 @@
 
     .logo {
         float: left;
-        height: 85px;
-        width: 144.96px;
+        /* height: 85px;
+        width: 144.96px; */
         background-color: var(--colour-purple);
         color: var(--colour-white);
         font-size: 40px;
@@ -87,6 +87,12 @@
     }
 
     /* BODY */
+    .top-part {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
     .cover {
         height: 300px;
         margin: 30px 0;
@@ -94,11 +100,46 @@
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
     }
 
+    .main-info {
+        margin: 30px 0;
+    }
 
-    body
-    {
+    .album-title {
+        font-size: 30px;
+    }
+
+    .price {
+        height: 20px;
+        background-color: #F7EDE1;
+        padding: 7px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+        /* margin-top: 4px; */
+        margin-top: 235px;
+        margin-right: 480px;
+    }
+
+    .main-info-icon {
+        /* margin: 0 10px; */
+        margin: auto;
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-end;
+    }
+
+    .main-info-icon img {
+        margin: 0;
+        padding-top: 230px;
+        height: 45px;
+        width: 45px;
+        cursor: pointer;
+    }
+
+
+    body{
         font-family: var(--font-primary);
     }
+
     h3 {
         font-family: var(--font-primary);
     }
