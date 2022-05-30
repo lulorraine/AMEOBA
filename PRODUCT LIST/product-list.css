@@ -123,15 +123,24 @@
 
     /* PRODUCT LIST */
     .new-release-1 {
-        display:flex;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
         }
 
     .new-release-2 {
-        display:flex;
+        /* display:flex;
+        flex-direction: row;
+        justify-content: space-between; */
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
         }
 
     /* PRODUCT-1 */        
@@ -501,4 +510,106 @@
     .copyright-text {
         font-size: 16px;
         color: var(--colour-grey);
+    }
+
+    /* RESPONSIVE DESIGN */
+    @media only screen and (max-width: 1185px) {
+        .logo {
+            visibility: hidden;
+            margin: 0;
+        }
+
+        .confirmation {
+            font-size: 25px;
+        }
+
+        .nav {
+            height: 55px;
+            background: var(--colour-green);
+            padding-top: 90px;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .icon-bar-nav {
+            width: 25%;
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .nav a {
+            color: var(--colour-white);
+            text-decoration: none;
+            padding: 14px 16px;
+            font-size: 18px;
+            margin: 2px;
+        }
+    }
+
+    @media only screen and (max-width: 865px) {
+        .footer {
+            height: 160px;
+        }
+        .icon-bar-nav {
+            width: 50%;
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-width: 420px) {
+        .footer {
+            height: 190px;
+        }
+        .icon-bar-nav > * {
+            margin-left: 5px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .icon-bar {
+            height: 155px;
+        }
+
+        .confirmation {
+            font-size: 30px;
+            padding-top: 110px;
+            padding-left: 20px;
+        }
+
+        .confirmation-image {
+            margin-top: 60px;
+        }
+
+        .nav {
+            visibility: hidden;
+        }
+
+        .ordernumber {
+            font-size: 18px;
+        }
+
+        .subscribe-text {
+            font-size: 14px;
+        }
+
+        .footer-link a {
+            font-size: 14px
+        }
+
+        .copyright-text {
+            font-size: 14px;
+        }
+
+        .footer {
+            height: 145px;
+            margin-top: 60px;
+        }
+    }
+
+    @media only screen and (max-width: 395px) {
+        .footer {
+            height: 165px;
+        }
     }
