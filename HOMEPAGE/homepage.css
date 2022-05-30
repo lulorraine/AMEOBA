@@ -62,7 +62,7 @@
     .nav a {
         color: var(--colour-white);
         text-decoration: none;
-        padding: 14px 16px;
+        /* padding: 14px 16px; */
         font-size: 30px;
     }
 
