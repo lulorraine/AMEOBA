@@ -172,24 +172,24 @@
     }
 
 
-    /* MAKE THE PAGE RESPONSE BETTER */
-    @media only screen and (max-width: 1000px) {
+    /* RESPONSIVE DESIGN */
+    @media only screen and (max-width: 1185px) {
         .logo {
             visibility: hidden;
+            margin: 0;
         }
 
         .confirmation {
             font-size: 25px;
         }
-    }
 
-    @media only screen and (max-width: 1185px) {
         .nav {
             height: 55px;
             background: var(--colour-green);
             padding-top: 90px;
             border-radius: 0 0 20px 20px;
         }
+        
         .icon-bar-nav {
             width: 25%;
             margin: auto;
@@ -227,3 +227,49 @@
         }
     }
 
+    @media only screen and (max-width: 768px) {
+        .icon-bar {
+            height: 155px;
+        }
+
+        .confirmation {
+            font-size: 30px;
+            padding-top: 110px;
+            padding-left: 20px;
+        }
+
+        .confirmation-image {
+            margin-top: 60px;
+        }
+
+        .nav {
+            visibility: hidden;
+        }
+
+        .ordernumber {
+            font-size: 18px;
+        }
+
+        .subscribe-text {
+            font-size: 14px;
+        }
+
+        .footer-link a {
+            font-size: 14px
+        }
+
+        .copyright-text {
+            font-size: 14px;
+        }
+
+        .footer {
+            height: 145px;
+            margin-top: 60px;
+        }
+    }
+
+    @media only screen and (max-width: 395px) {
+        .footer {
+            height: 165px;
+        }
+    }
