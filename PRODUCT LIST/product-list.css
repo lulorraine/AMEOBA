@@ -472,6 +472,7 @@
 
         .change-page {
             margin-top: 2vw;
+            height: 5vw;
         }
     }
 
@@ -540,7 +541,7 @@
 
         .footer {
             height: 145px;
-            margin-top: 60px;
+            margin-top: 1vw;
         }
 
         /* IMPROVE PRODUCT BOX */
