@@ -22,19 +22,6 @@
     }
 
     /* NAVIGATION */
-
-    /* .icon-bar {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        background-color: var(--colour-purple);
-        border-radius: 0 0 20px 20px;
-        position: fixed;
-        height: 85px;
-        } */
-    
-
     .icon-bar {
         display: flex;
         height: 85px;
@@ -127,157 +114,81 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        /* margin-left: 10%;
-        margin-right: 10%; */
-        /* width: 80%; */
-        }
-
-    .new-release-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        /* margin-left: 10%;
-        margin-right: 10%; */
-        width: 80%;
         }
 
     /* PRODUCT-1 */        
     .box-1 {
-        width: 14.4vw;
-        height: 25vw;
+        width: 80vw;
+        height: 15vw;
         background-color: var(--colour-white);
         margin: 30px;
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
         border-radius: 10px;
-    }
-
-    /* PRODUCT-2 */
-    .box-2 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-3 */
-    .box-3 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-4 */
-    .box-4 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-5 */
-    .box-5 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-6 */
-    .box-6 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-7 */
-    .box-7 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
-    }
-
-    /* PRODUCT-8 */
-    .box-8 {
-        width: 14.4vw;
-        height: 25vw;
-        background-color: var(--colour-white);
-        margin: 30px;
-        box-shadow: 2px 2px 10px 0 var(--colour-grey);
-        border-radius: 10px;
+        display: flex;
     }
 
     /* ELEMENT DESIGN */
     .cover {
         width: 13vw;
-        margin: 0.7vw;
+        margin: 1vw;
         border-radius: 5px;
         box-shadow: 1px 1px 8px 0 var(--colour-grey);
+        /* display: flex; */
+    }
+
+    .album-info {
+        /* display: flex; */
+        justify-content: end;
     }
 
     .album-title {
-        margin: 0 10px;
-        font-size: 1.3vw;
+        font-size: 1.8vw;
+        margin-top: 1vw;
+        margin-left: 1.2vw;
     }
-
     .singer {
-        margin-left: 10px;
-        margin-bottom: 8px;
         color: var(--colour-grey);
-        font-size: 1.02vw;
+        margin-top: 0.8vw;
+        margin-left: 1.2vw;
+        font-size: 1.5vw;
     }
 
-    .price {
-        height: 1.3vw;
-        background-color: #F7EDE1;
-        padding: 0.46vw;
-        border-radius: 5px;
-        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
-        margin-top: 0.35vw;
-        font-size: 1.05vw;
-    }
-
-    .product-icon img {
+    .heart {
+        display: flex;
         margin: 0;
+        margin-top: 1vw;
+        margin-left: 27vw;
         width: 3vw;
         height: 3vw;
         cursor: pointer;
     }
 
+
+    .price {
+        background-color: #F7EDE1;
+        padding: 0.5vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+        margin: 0;
+        font-size: 1.8vw;
+        height: 2vw;
+        margin-top: 11vw;
+    }
+
     .cart {
-        margin-right: 20px;
-    }
-
-    .product-icon {
-        width: 13vw;
-        margin: 0.7vw;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .change-page {
-        height: 3.3vw;
-        width: 20vw;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+        width: 4vw;
+        height: 4vw;
+        margin: 0;
+        margin-top: 10.6vw;
+        margin-left: 1.5vw;
+        margin-right: 1vw;
         cursor: pointer;
     }
+
+    /* .product-icon {
+        display: inline-block;
+        justify-content: center;
+    } */
 
 
     /* FOOTER */
@@ -286,6 +197,7 @@
         background-color: var(--colour-purple);
         border-radius: 20px 20px 0 0;
         text-align: center;
+        margin-top: 150px;
     }
 
     .subscribe-text {
@@ -355,12 +267,7 @@
         }
     }
 
-    @media only screen and (max-width: 1125px) {
-        /* IMPROVE PRODUCT BOX */
-        .cover {
-            width: 14vw;
-            margin: 1.5vw;
-        }
+    /* @media only screen and (max-width: 1125px) {
         .album-title {
             margin-left: 1.5vw;
         }
@@ -370,46 +277,9 @@
         .product-icon {
             margin-left: 1.4vw;
         }
-        .box-1 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-2 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-3 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-4 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-5 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-6 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-7 {
-            width: 17vw;
-            height: 30vw;
-        }
-        .box-8 {
-            width: 17vw;
-            height: 30vw;
-        }
     }
 
     @media only screen and (max-width: 875px) {
-        .cover {
-            width: 16vw;
-            margin: 2vw;
-            margin-bottom: 1vw;
-        }
         .album-title {
             margin-left: 2vw;
             font-size: 1.6vw;
@@ -420,61 +290,7 @@
         .product-icon {
             margin-left: 2vw;
         }
-
-        .box-1 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-2 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-3 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-4 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-5 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-6 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-7 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-        .box-8 {
-            width: 20vw;
-            height: 34vw;
-            margin: 1vw 1vw;
-            margin-top: 3vw;
-        }
-
-        .change-page {
-            margin-top: 2vw;
-            height: 5vw;
-        }
-    }
+    } */
 
     @media only screen and (max-width: 600px) {
         .nav a {
@@ -513,7 +329,7 @@
         }
 
 
-        .newreleases {
+        .search-results {
             font-size: 30px;
             padding-top: 110px;
             padding-left: 20px;
@@ -522,10 +338,6 @@
 
         .nav {
             visibility: hidden;
-        }
-
-        .ordernumber {
-            font-size: 18px;
         }
 
         .subscribe-text {
