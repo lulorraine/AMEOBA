@@ -47,23 +47,28 @@
     } */
 
     .player {
-        width: 40%;
-        height: 40%;
+        width: 35vw;
     }
 
     .nav {
-        width: 50%;
+        width: 35vw;
         background: var(--colour-purple);
         border-radius: 20px;
         box-shadow: 15px 15px 15px 0px var(--colour-grey);
-        margin-left: 10%;
+        margin: 1vw;
     }
 
-    .nav a {
-        color: var(--colour-white);
+    .nav li {
+        list-style: none;
         text-decoration: none;
-        /* padding: 14px 16px; */
-        font-size: 30px;
+        font-size: 2.4vw;
+        margin: 1vw;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: var(--colour-white);
+
     }
 
     .active {
@@ -81,7 +86,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 10%;
+        margin: 3vw;
     }
 
 
@@ -144,16 +149,6 @@
             margin: 0;
         }
 
-        .confirmation {
-            font-size: 25px;
-        }
-
-        .nav {
-            height: 55px;
-            background: var(--colour-green);
-            padding-top: 90px;
-            border-radius: 0 0 20px 20px;
-        }
         
         .icon-bar-nav {
             width: 25%;
@@ -161,15 +156,6 @@
         }
     }
 
-    @media only screen and (max-width: 600px) {
-        .nav a {
-            color: var(--colour-white);
-            text-decoration: none;
-            padding: 14px 16px;
-            font-size: 18px;
-            margin: 2px;
-        }
-    }
 
     @media only screen and (max-width: 865px) {
         .footer {
@@ -197,24 +183,6 @@
             height: 155px;
         }
 
-        .confirmation {
-            font-size: 30px;
-            padding-top: 110px;
-            padding-left: 20px;
-        }
-
-        .confirmation-image {
-            margin-top: 60px;
-        }
-
-        .nav {
-            visibility: hidden;
-        }
-
-        .ordernumber {
-            font-size: 18px;
-        }
-
         .subscribe-text {
             font-size: 14px;
         }
@@ -229,7 +197,6 @@
 
         .footer {
             height: 145px;
-            margin-top: 60px;
         }
     }
 
