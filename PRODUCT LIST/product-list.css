@@ -520,6 +520,18 @@
             width: 30%;
         }
 
+        .new-release-1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+
+
+
+        
+
         .nav {
             visibility: hidden;
         }
