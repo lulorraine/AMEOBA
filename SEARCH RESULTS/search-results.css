@@ -136,33 +136,37 @@
         /* display: flex; */
     }
 
-    .album-info {
-        /* display: flex; */
-        justify-content: end;
+    .first-line {
+        display: flex;
     }
 
     .album-title {
-        font-size: 1.8vw;
+        font-size: 2vw;
         margin-top: 1vw;
         margin-left: 1.2vw;
     }
     .singer {
         color: var(--colour-grey);
-        margin-top: 0.8vw;
         margin-left: 1.2vw;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 
     .heart {
         display: flex;
         margin: 0;
         margin-top: 1vw;
-        margin-left: 27vw;
+        margin-left: 23.5vw;
         width: 3vw;
         height: 3vw;
         cursor: pointer;
     }
 
+    .price-and-cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 51vw;
+    }
 
     .price {
         background-color: #F7EDE1;
@@ -172,14 +176,15 @@
         margin: 0;
         font-size: 1.8vw;
         height: 2vw;
-        margin-top: 11vw;
+        width: 6.5vw;
+        margin-top: 5vw;
     }
 
     .cart {
         width: 4vw;
         height: 4vw;
         margin: 0;
-        margin-top: 10.6vw;
+        margin-top: 4.6vw;
         margin-left: 1.5vw;
         margin-right: 1vw;
         cursor: pointer;
