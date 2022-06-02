@@ -671,7 +671,24 @@
             justify-content: center; */
         }
 
-        
+        .back-button {
+            width: 20px;
+            height: 20px;
+        }
+        .newreleases {
+            font-size: 22px;
+            padding-top: 120px;
+            width: 32%;
+        }
+
+        .icon-bar-nav {
+            width: 18%;
+        }
+        .icon-bar-nav > * {
+            margin-left: 5px;
+            width: 20px;
+            height: 20px;
+        }        
 
 
 
@@ -702,5 +719,27 @@
     @media only screen and (max-width: 395px) {
         .footer {
             height: 165px;
+        }
+    }
+
+    @media only screen and (max-width: 581px) {
+        .back-button {
+            width: 18px;
+            padding-left: 5px;
+        }
+        .newreleases {
+            padding: 0;
+            padding-top: 60px;
+            padding-left: 10px;
+            font-size: 30px;
+            width: 5%;
+        }
+        .icon-bar-nav {
+            width: 30%;
+        }
+        .icon-bar-nav > * {
+            /* margin-left: 5px; */
+            /* width: 20px;
+            height: 20px; */
         }
     }
