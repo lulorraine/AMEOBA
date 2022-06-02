@@ -94,11 +94,16 @@
     }
 
     .player {
-        width: 35vw;
+        width: 38vw;
+    }
+
+    .back-button {
+        height: 2vw;
+        margin-top: 1vw;
     }
 
     .nav {
-        width: 35vw;
+        width: 38vw;
         background: var(--colour-purple);
         border-radius: 20px;
         box-shadow: 15px 15px 15px 0px var(--colour-grey);
@@ -309,9 +314,14 @@
             margin: 0 5vw;
         }
 
+        .back-button {
+            height: 5vw;
+            margin: 3vw;
+        }
+
         .nav {
             width: 100vw;
-            height: 65vw;
+            height: 70vw;
             background: var(--colour-purple);
             border-radius: 20px 20px 0 0;
             box-shadow: none;
@@ -320,7 +330,6 @@
 
         ol {
             padding: 5vw 0;
-
         }
 
         .nav li {
