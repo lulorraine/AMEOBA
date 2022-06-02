@@ -466,11 +466,13 @@
         .footer {
             height: 180px;
         }
+    }
 
     @media only screen and (max-width: 295px) {
         .footer {
             height: 200px;
         }
+    }
 
     /* NAV BAR */
     @media only screen and (max-width: 610px) {
