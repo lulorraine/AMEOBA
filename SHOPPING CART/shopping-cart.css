@@ -179,11 +179,11 @@
         cursor: pointer;
     }
 
-    .price-and-cart {
+    .price-and-cost {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin-left: 51vw;
+        margin-left: 35vw;
     }
 
     .price {
@@ -198,15 +198,31 @@
         margin-top: 5vw;
     }
 
-    .cart {
-        width: 4vw;
-        height: 4vw;
+    .number {
+        background-color: #FFDBAF;
+        padding: 0.5vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
         margin: 0;
-        margin-top: 4.6vw;
-        margin-left: 1.5vw;
-        margin-right: 1vw;
-        cursor: pointer;
+        font-size: 1.8vw;
+        height: 2vw;
+        margin-top: 5vw;
+        margin-left: 2vw;
     }
+
+    .item-cost {
+        background-color: #F7EDE1;
+        padding: 0.5vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+        margin: 0;
+        font-size: 1.8vw;
+        height: 2vw;
+        width: 9vw;
+        margin-top: 5vw;
+        margin-left: 2vw;
+    }
+
 
     /* <!-- ORDER INFO --> */
     .product-amount {
