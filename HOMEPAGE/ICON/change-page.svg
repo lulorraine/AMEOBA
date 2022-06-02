@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="94" viewBox="0 0 428 94">
+  <defs>
+    <filter id="矩形_133" x="111" y="10" width="74" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_134" x="334" y="0" width="94" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_132" x="0" y="0" width="94" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_237" data-name="组 237" transform="translate(-746 -1693)">
+    <g transform="matrix(1, 0, 0, 1, 746, 1693)" filter="url(#矩形_133)">
+      <rect id="矩形_133-2" data-name="矩形 133" width="56" height="53" rx="3" transform="translate(120 16)" fill="#ffdbaf"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 746, 1693)" filter="url(#矩形_134)">
+      <rect id="矩形_134-2" data-name="矩形 134" width="76" height="76" rx="6" transform="translate(343 6)" fill="#6553b0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 746, 1693)" filter="url(#矩形_132)">
+      <rect id="矩形_132-2" data-name="矩形 132" width="76" height="76" rx="6" transform="translate(9 6)" fill="#6553b0"/>
+    </g>
+    <text id="of_10" data-name="of 10" transform="translate(949 1745)" font-size="35" font-family="OCRAExtended, OCR A"><tspan x="0" y="0">OF 10</tspan></text>
+    <text id="_1" data-name="1" transform="translate(883 1746)" font-size="36" font-family="OCRAExtended, OCR A"><tspan x="0" y="0">1</tspan></text>
+    <g id="play" transform="translate(1111.516 1715.581)">
+      <path id="play-2" data-name="play" d="M32.55,17.495,5.553.537A3.662,3.662,0,0,0,0,3.9V37.809a3.682,3.682,0,0,0,5.553,3.365l27-16.949a4.035,4.035,0,0,0,0-6.731Z" transform="translate(0 -0.002)" fill="#fff"/>
+    </g>
+    <g id="play-3" data-name="play" transform="translate(810.18 1757.303) rotate(180)">
+      <path id="play-4" data-name="play" d="M32.55,17.495,5.553.537A3.662,3.662,0,0,0,0,3.9V37.809a3.682,3.682,0,0,0,5.553,3.365l27-16.949a4.035,4.035,0,0,0,0-6.731Z" transform="translate(0 -0.002)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
