@@ -1,0 +1,376 @@
+@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+:root {
+    --font-primary: "OCR A", ocr-a-extended;
+
+    --colour-white: #FFFFFF;
+    --colour-purple: #6553B0;
+    --colour-green: #8AD3C3;
+    --colour-black: #222222;
+    --colour-yellow: #F6E61F;
+    --colour-grey: #8F8F8F;
+    }
+
+    body {
+        font-family: var(--font-primary);
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--colour-green)
+    }
+
+    /* HEADER */
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin: 2vw 15vw;
+    }
+
+    .cart {
+        height: 3.5vw;
+        width: 3.5vw;
+        margin-left: 26.8vw;
+    }
+    .menu {
+        height: 2.5vw;
+        margin-bottom: 0.2vw;
+        margin-left: 10px;
+    }
+
+    .logo {
+        color: var(--colour-white);
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    /* SEARCH BAR */
+    .search-bar-desktop {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 2vw;
+    }
+    .search-input {
+        height: 4vw;
+        width: 24vw;
+        border: 2px;
+        border-radius: 10px;
+        font-family: var(--font-primary);
+        box-shadow: 1px 1px 5px 0.5px var(--colour-white);
+        font-size: 1vw;
+    }
+
+    .search-button {
+        background-color: var(--colour-purple);
+        color: var(--colour-white);
+        cursor: pointer;
+        height: 4vw;
+        width: 9vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 0;
+        border-radius: 10px;
+        font-family: var(--font-primary);
+        box-shadow: 1px 1px 5px 0.5px var(--colour-grey)
+    }
+
+
+    /* MIDDLE PART */
+    .middle-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3vw;
+    }
+
+    .player {
+        width: 35vw;
+    }
+
+    .nav {
+        width: 35vw;
+        background: var(--colour-purple);
+        border-radius: 20px;
+        box-shadow: 15px 15px 15px 0px var(--colour-grey);
+        margin: 1vw;
+    }
+
+    .nav li {
+        list-style: none;
+        text-decoration: none;
+        font-size: 2.4vw;
+        margin: 1vw;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: var(--colour-white);
+    }
+
+    .active {
+        background-color: var(--colour-green);
+        height: 12px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+    /* FOOTER */
+    .footer {
+        height: 130px;
+        background-color: var(--colour-purple);
+        border-radius: 20px 20px 0 0;
+        margin-top: 15vh;
+    }
+
+    .subscribe-text {
+        font-size: 16px;
+        color: var(--colour-white);
+        padding-bottom: 8px;
+    }
+
+    input {
+        height: 25px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 0;
+        border-radius: 5px;
+        font-family: var(--font-primary);
+        box-shadow: 1px 1px 5px 0.5px var(--colour-white)
+    }
+
+    .subscribe-button {
+        background-color: var(--colour-green);
+        color: var(--colour-white);
+        cursor: pointer;
+    }
+
+    .footer-link {
+        padding-bottom: 2px;
+    }
+
+    .footer-link a {
+        font-size: 16px;
+        color: var(--colour-yellow);
+        text-decoration: none;
+        color: var(--colour-yellow);
+        padding: 0px 15px;
+    }
+
+    .footer-link :hover {
+        color: var(--colour-green);
+    }
+
+    .copyright-text {
+        font-size: 16px;
+        color: var(--colour-grey);
+    }
+
+
+    /* RESPONSIVE DESIGN */
+    @media only screen and (max-width: 1185px) {
+        /* .icon-bar-nav {
+            width: 50%;
+            margin: auto;
+        } */
+    }
+
+
+    @media only screen and (max-width: 865px) {
+        .footer {
+            height: 160px;
+        }
+        /* .icon-bar-nav {
+            width: 50%;
+            margin: auto;
+        } */
+    }
+
+    @media only screen and (max-width: 420px) {
+        .footer {
+            height: 190px;
+        }
+        /* .icon-bar-nav > * {
+            margin-left: 5px;
+            width: 25px;
+            height: 25px;
+        } */
+    }
+
+    @media only screen and (max-width: 768px) {
+        .icon-bar {
+            height: 155px;
+        }
+
+        .subscribe-text {
+            font-size: 14px;
+        }
+
+        .footer-link a {
+            font-size: 14px
+        }
+
+        .copyright-text {
+            font-size: 14px;
+        }
+
+        .footer {
+            height: 145px;
+        }
+
+
+
+
+        /* HEADER */
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            margin: 8vw 10vw;
+        }
+
+        .cart {
+            height: 10vw;
+            width: 10vw;
+            margin: 0;
+            margin-top: 3vw;
+            margin-left: 12vw;
+        }
+        .menu {
+            height: 7vw;
+            margin-left: 0.5vw;
+            margin-bottom: 1vw;
+        }
+
+        .logo {
+            color: var(--colour-white);
+            font-size: 12vw;
+            text-align: left;
+        }
+
+        /* SEARCH BAR */
+        .search-bar-desktop {
+            display: none;
+        } 
+
+        .search-bar-mobile {
+            margin-top: 0vw;
+        }
+        .search-input {
+            height: 10vw;
+            width: 55vw;
+            border: 2px;
+            border-radius: 10px;
+            font-family: var(--font-primary);
+            box-shadow: 1px 1px 5px 0.5px var(--colour-white);
+            font-size: 3vw;
+        }
+
+        .search-button {
+            background-color: var(--colour-purple);
+            color: var(--colour-white);
+            cursor: pointer;
+            height: 10vw;
+            width: 20vw;
+            padding-left: 8px;
+            padding-right: 8px;
+            border: 0;
+            border-radius: 10px;
+            font-family: var(--font-primary);
+            font-size: 3vw;
+            box-shadow: 1px 1px 5px 0.5px var(--colour-grey)
+        }
+
+        /* MIDDLE PART */
+        .middle-part {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            margin-top: 4vw;
+        }
+
+        .player {
+            width: 90vw;
+            margin: 0 5vw;
+        }
+
+        .nav {
+            width: 100vw;
+            height: 65vw;
+            background: var(--colour-purple);
+            border-radius: 20px 20px 0 0;
+            box-shadow: none;
+            margin: 0;
+        }
+
+        ol {
+            padding: 5vw 0;
+
+        }
+
+        .nav li {
+            list-style: none;
+            text-decoration: none;
+            font-size: 6vw;
+            margin: 2.5vw;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: var(--colour-white);
+        }
+
+        .active {
+            background-color: var(--colour-green);
+            height: 12px;
+            border-radius: 5px;
+            padding: 1.5vw;
+        }
+        .footer {
+            display: none;
+        }
+
+    }
+    @media only screen and (min-width: 768px) {
+        .search-bar-mobile {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 395px) {
+        .footer {
+            height: 165px;
+        }
+    }
+
+
+    /* FOOTER RESPONSIBLE DESIGN */
+    @media only screen and (max-width: 1025px) {
+        .middle-part {
+            margin-top: 90px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .middle-part {
+            margin-top: 70px;
+        }
+        .nav {
+            margin-top: 30px;
+        }
+    }
