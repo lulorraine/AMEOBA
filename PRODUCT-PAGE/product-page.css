@@ -65,6 +65,12 @@
         margin: auto;
     }
 
+    .icon-bar-nav img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
     .icon-bar-nav > * {
         margin-left: 15px;
         width: 30px;
@@ -373,6 +379,11 @@
             visibility: hidden;
         }
 
+        .icon-bar-nav {
+            width: 80%;
+            margin: auto;
+        }
+
 
         /* PRODUCT PART */
         .box-1 {
@@ -476,14 +487,16 @@
 
     /* NAV BAR */
     @media only screen and (max-width: 610px) {
-        /* .back-button {
-            height: 30px;
-            width: 30px;
-            margin: 0 0 0 0;
-            padding-left: 50px;
-            padding-right: 0px;
-        } */
         .icon-bar-nav {
             margin-right: 10vw;
         }
+        .icon-bar-nav {
+            width: 100%;
+            margin-right: 0px;
+        }
+        .back-button {
+            margin-right: 0;
+            width: 5%;
+        }
     }
+      

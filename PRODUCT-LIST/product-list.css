@@ -70,6 +70,12 @@
         margin: auto;
     }
 
+    .icon-bar-nav img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
     .icon-bar-nav > * {
         margin-left: 15px;
         width: 30px;
@@ -485,6 +491,7 @@
         .icon-bar-nav {
             width: 25%;
             margin: auto;
+            margin-right: 20px;
         }
     }
 
@@ -712,5 +719,32 @@
         }
         .icon-bar-nav {
             width: 30%;
+        }
+    }
+
+
+    @media only screen and (max-width: 698px) {
+        .newreleases {
+            padding: 0;
+            padding-top: 60px;
+            padding-left: 10px;
+            font-size: 30px;
+            width: 2%;
+        }
+        .icon-bar-nav {
+            width: 25%;
+        }
+    }
+
+    @media only screen and (max-width: 520px) {
+        .newreleases {
+            padding: 0;
+            padding-top: 60px;
+            padding-left: 10px;
+            font-size: 30px;
+            width: 2%;
+        }
+        .icon-bar-nav {
+            width: 40%;
         }
     }
