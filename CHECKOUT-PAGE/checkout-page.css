@@ -519,6 +519,9 @@
     }
 
     /* ELEMENT DESIGN */
+    h3 {
+        font-size: 7vw;
+    }
     .icon {
         width: 16vw;
         margin: 2vw;
