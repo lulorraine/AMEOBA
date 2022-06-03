@@ -187,15 +187,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
     /* PAYMENT METHOD */        
     .box-1 {
         width: 30vw;
@@ -589,27 +580,6 @@
         display: flex;
     }
 
-
-    /* .address-radio-1 {
-        display: flex;
-        margin: 0;
-        margin-top: 3.25vw;
-        margin-left: 2vw;
-        width: 1.5vw;
-        height: 1.5vw;
-        cursor: pointer;
-        color: var(--colour-green);
-    }
-    .address-radio-2 {
-        display: flex;
-        margin: 0;
-        margin-top: 3.25vw;
-        margin-left: 3vw;
-        width: 1.5vw;
-        height: 1.5vw;
-        cursor: pointer;
-    } */
-
     /* ELEMENT DESIGN */
     .payment-icon {
         width: 16vw;
@@ -704,49 +674,22 @@
     }
 
 
-    @media only screen and (max-width: 410px) {       
-        /* .box-1 {
-            width: 350px;
-            height: 140px;
-            background-color: var(--colour-white);
-            box-shadow: 2px 2px 10px 0 var(--colour-grey);
-            border-radius: 10px;
-            display: flex;
-        }
-        .box-2 {
-            width: 350px;
-            height: 140px;
-            background-color: var(--colour-white);
-            box-shadow: 2px 2px 10px 0 var(--colour-grey);
-            border-radius: 10px;
-            display: flex;
-        }
-        .checkbox-2 {
-            margin-left: 112px;
-        } */
-    }
-
         /* FOOTER RESPONSIBLE DESIGN */
         @media only screen and (max-width: 395px) {
             .footer {
-                height: 165px;
+                height: 170px;
             }
         }
     
-        @media only screen and (max-width: 375px) {
-            .footer {
-                height: 180px;
-            }
-        }
     
         @media only screen and (max-width: 295px) {
             .footer {
                 height: 200px;
             }
         }
-        @media only screen and (max-width: 420px) {
+        @media only screen and (max-width: 380px) {
             .footer {
-                height: 160px;
+                height: 180px;
                 margin-top: 30px;
             }
         }
