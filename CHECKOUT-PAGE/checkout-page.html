@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONFIRMATION</title>
-    <link rel="stylesheet" href="shopping-cart.css">
+    <link rel="stylesheet" href="checkout-page.css">
 </head>
 <body>
     <div class="header">
@@ -31,33 +31,74 @@
             <a href="#">WHAT'S IN MY BAG?</a>
             <a href="#">OUR STORY</a>
         </div>
-
-    <div class="cart-product">
-        <!-- PRODUCT 1 -->
-        <div class="box-1">
-            <img src="2.png" alt="" class="cover">
-            <div class="album-info">
+        
+    <h3>Shipping to</h3>
+    <div class="shipping-to">        
+        <!-- METHOD 1 -->
+        <div class="address-1">
+            <img src="ICON/house.svg" alt="" class="icon">
+            <div class="payment-info">
                 <div class="first-line">
-                <p class="album-title">Original Video 
-                    Game Soundtrack</p>  
-                <span><input name='item' type="checkbox" value=" " checked="checked" class="checkbox-1">  </span> 
+                <p class="address-first-line">222 Swanston Street</p>  
+                <span><input name='item' type="radio" value=" " checked="checked" class="checkbox-1">  </span> 
                 </div>
-                <div class="singer">Japanese Breakfast</div>
-                <div class="price-and-cost">             
-                </div>
+                <div class="address-second-line">Melbourne, AUS</div>
             </div>    
         </div>
-        <!-- PRODUCT 2 -->
-        <div class="box-2">
-            <img src="3.png" alt="" class="cover">
-            <div class="album-info">
+        <!-- METHOD 2 -->
+        <div class="address-2">
+            <img src="ICON/flag.svg" alt="" class="icon">
+            <div class="payment-info">
                 <div class="first-line">
-                <p class="album-title">Woodpecker</p>  
-                <span><input name='item' type="checkbox" value=" " checked="checked" class="checkbox-2"></span> 
+                <p class="address-first-line">201 Carlton Street</p>  
+                <span><input name='item' type="radio" value=" " checked="checked" class="checkbox-2"></span> 
                 </div>
-                <div class="singer">Deer Scout</div>
+                <div class="address-second-line">Melbourne, AUS</div>
             </div>    
-        </div>          
+        </div>            
+    </div>
+
+
+
+
+
+
+
+    <div class="payment-method">
+        <h3>Payment method</h3>
+        <!-- METHOD 1 -->
+        <div class="box-1">
+            <img src="ICON/visa.svg" alt="" class="payment-icon">
+            <div class="payment-info">
+                <div class="first-line">
+                <p class="uid">**** **** **** 1119</p>  
+                <span><input name='item' type="radio" value=" " checked="checked" class="checkbox-1">  </span> 
+                </div>
+                <div class="method">VISA</div>
+            </div>    
+        </div>
+        <!-- METHOD 2 -->
+        <div class="box-2">
+            <img src="ICON/paypal.svg" alt="" class="payment-icon">
+            <div class="payment-info">
+                <div class="first-line">
+                <p class="uid">lorrainelu@gmail.com</p>  
+                <span><input name='item' type="radio" value=" " checked="checked" class="checkbox-2"></span> 
+                </div>
+                <div class="method">PayPal</div>
+            </div>    
+        </div>
+        <!-- METHOD 3 -->
+        <div class="box-3">
+            <img src="ICON/mastercard.svg" alt="" class="payment-icon">
+            <div class="payment-info">
+                <div class="first-line">
+                <p class="uid">**** **** **** 9621</p>  
+                <span><input name='item' type="radio" value=" " checked="checked" class="checkbox-3"></span> 
+                </div>
+                <div class="method">Master Card</div>
+            </div>    
+        </div>             
     </div>
 
     <!-- ORDER INFO -->

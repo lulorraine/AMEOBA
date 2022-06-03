@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <g id="组_238" data-name="组 238" transform="translate(-25 -17.101)">
+    <rect id="Rectangle" width="84" height="84" rx="14" transform="translate(25 17.101)" fill="#fff"/>
+    <g id="_Icons_21_Home" data-name="_Icons / 21 Home" transform="translate(33.788 25.743)">
+      <rect id="_Icons_21_Home_background" data-name="_Icons / 21 Home background" width="67" height="67" transform="translate(0.211 0.357)" fill="rgba(0,0,0,0)"/>
+      <path id="_21_Home" data-name="21 Home" d="M31.665,48.187H9.579a5.02,5.02,0,0,1-5.02-5.018V22.928H3A3.012,3.012,0,0,1,.924,17.747L18.532.841a3.014,3.014,0,0,1,4.177,0L40.32,17.747a3.012,3.012,0,0,1-2.088,5.181H36.685V43.169A5.025,5.025,0,0,1,31.665,48.187ZM20.621,27.1a4.016,4.016,0,1,0,4.016,4.016A4.02,4.02,0,0,0,20.621,27.1Z" transform="translate(12.604 9.177)" fill="#6c57a2"/>
+    </g>
+  </g>
+</svg>

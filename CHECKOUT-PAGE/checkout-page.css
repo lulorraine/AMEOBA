@@ -45,24 +45,18 @@
         width: 30px;
         margin: auto;
         font-size: 30px;
-        /* padding-top: 27.5px; */
-        /* margin-left: 30px; */
         cursor: pointer;
         padding-left: 60px;
     }
 
     .search-results {
-        /* width: 15%; */
         height: 85px;
-        /* margin: auto; */
         font-size: 30px;
         padding-top: 27.5px;
         color: var(--colour-white);
     }
 
     .logo {
-        /* height: 85px;
-        width: 144.96px; */
         background-color: var(--colour-purple);
         color: var(--colour-white);
         font-size: 40px;
@@ -110,119 +104,176 @@
 
 
     /* PRODUCT LIST */
-    .cart-product {
+    .payment-method {
         flex-direction: column;
         justify-content: center;
         margin: auto;
         }
+    .shipping-to {
+        display: flex;
+        flex-direction: row;
+    }
 
-    /* PRODUCT-1 */        
-    .box-1 {
-        width: 80vw;
-        height: 15vw;
-        background-color: var(--colour-white);
-        margin: 30px 10vw;
+    h3 {
+        margin-left: 10vw;
+        font-weight: 500;
+        font-size: 2vw;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+
+
+    /* SHIPPING TO */        
+    .address-1 {
+        width: 30vw;
+        height: 8vw;
+        background-color: #F3F3F3;
+        margin: 10px 0 10px 10vw;
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
         border-radius: 10px;
         display: flex;
     }
-    .box-2 {
-        width: 80vw;
-        height: 15vw;
-        background-color: var(--colour-white);
-        margin: 30px 10vw;
+    .address-2 {
+        width: 30vw;
+        height: 8vw;
+        background-color: #F3F3F3;
+        margin: 10px 0 10px 25px;
         box-shadow: 2px 2px 10px 0 var(--colour-grey);
         border-radius: 10px;
         display: flex;
     }
 
     /* ELEMENT DESIGN */
-    .cover {
-        width: 13vw;
+    .icon {
+        width: 6vw;
         margin: 1vw;
-        border-radius: 5px;
-        box-shadow: 1px 1px 8px 0 var(--colour-grey);
-        /* display: flex; */
     }
 
     .first-line {
         display: flex;
     }
 
-    .album-title {
-        font-size: 2vw;
+    .address-first-line {
+        font-size: 1.5vw;
         margin-top: 1vw;
-        margin-left: 1.2vw;
+        margin-left: 0vw;
+        margin-bottom: 0vw;
     }
-    .singer {
+    .address-second-line {
         color: var(--colour-grey);
-        margin-left: 1.2vw;
-        font-size: 1.8vw;
+        margin-left: 0vw;
+        font-size: 1.5vw;
+        margin-top: 0.7vw;
     }
 
     .checkbox-1 {
         display: flex;
         margin: 0;
-        margin-top: 1vw;
-        margin-left: 23.5vw;
-        width: 3vw;
-        height: 3vw;
+        margin-top: 3.25vw;
+        margin-left: 2vw;
+        width: 1.5vw;
+        height: 1.5vw;
         cursor: pointer;
+        color: var(--colour-green);
     }
     .checkbox-2 {
         display: flex;
         margin: 0;
-        margin-top: 1vw;
-        margin-left: 47.7vw;
-        width: 3vw;
-        height: 3vw;
+        margin-top: 3.25vw;
+        margin-left: 1.1vw;
+        width: 1.5vw;
+        height: 1.5vw;
         cursor: pointer;
     }
 
-    .price-and-cost {
+
+
+
+
+
+
+
+
+
+
+    /* PAYMENT METHOD */        
+    .box-1 {
+        width: 30vw;
+        height: 8vw;
+        background-color: var(--colour-white);
+        margin: 10px 10vw;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-left: 35vw;
+    }
+    .box-2 {
+        width: 30vw;
+        height: 8vw;
+        background-color: var(--colour-white);
+        margin: 10px 10vw;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+        display: flex;
+    }
+    .box-3 {
+        width: 30vw;
+        height: 8vw;
+        background-color: var(--colour-white);
+        margin: 10px 10vw;
+        box-shadow: 2px 2px 10px 0 var(--colour-grey);
+        border-radius: 10px;
+        display: flex;
+    }
+    /* ELEMENT DESIGN */
+    .payment-icon {
+        width: 6vw;
+        margin: 1vw;
     }
 
-    .price {
-        background-color: #F7EDE1;
-        padding: 0.5vw;
-        border-radius: 5px;
-        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
-        margin: 0;
-        font-size: 1.8vw;
-        height: 2vw;
-        width: 6.5vw;
-        margin-top: 5vw;
+    .first-line {
+        display: flex;
     }
 
-    .number {
-        background-color: #FFDBAF;
-        padding: 0.5vw;
-        border-radius: 5px;
-        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+    .uid {
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-left: 0vw;
+    }
+    .method {
+        color: var(--colour-grey);
+        margin-left: 0vw;
+        font-size: 1.5vw;
+        margin-top: 0.6vw;
+    }
+
+    .checkbox-1 {
+        display: flex;
         margin: 0;
-        font-size: 1.8vw;
-        height: 2vw;
-        margin-top: 5vw;
+        margin-top: 3.25vw;
         margin-left: 2vw;
+        width: 1.5vw;
+        height: 1.5vw;
+        cursor: pointer;
+        color: var(--colour-green);
     }
-
-    .item-cost {
-        background-color: #F7EDE1;
-        padding: 0.5vw;
-        border-radius: 5px;
-        box-shadow: 1px 1px 6px 0 #8f8f8f7e;
+    .checkbox-2 {
+        display: flex;
         margin: 0;
-        font-size: 1.8vw;
-        height: 2vw;
-        width: 9vw;
-        margin-top: 5vw;
-        margin-left: 2vw;
+        margin-top: 3.25vw;
+        margin-left: 1.1vw;
+        width: 1.5vw;
+        height: 1.5vw;
+        cursor: pointer;
     }
-
+    .checkbox-3 {
+        display: flex;
+        margin: 0;
+        margin-top: 3.25vw;
+        margin-left: 2vw;
+        width: 1.5vw;
+        height: 1.5vw;
+        cursor: pointer;
+    }
 
     /* <!-- ORDER INFO --> */
     .product-amount {
@@ -273,7 +324,7 @@
         background-color: var(--colour-purple);
         border-radius: 20px 20px 0 0;
         text-align: center;
-        margin-top: 16vw;
+        margin-top: 5vw;
     }
 
     .subscribe-text {
@@ -443,7 +494,7 @@
     /* PRODUCT BOX RESPONSIVE DESIGN */ 
         /* PRODUCT BOX */
         /* PRODUCT-1 */        
-        .box-1 {
+        /* .box-1 {
             width: 400px;
             height: 140px;
             background-color: var(--colour-white);
@@ -464,7 +515,7 @@
             box-shadow: 2px 2px 10px 0 var(--colour-grey);
             border-radius: 10px;
             display: flex;
-        }
+        } */
 
         /* ELEMENT DESIGN */
         .cover {
