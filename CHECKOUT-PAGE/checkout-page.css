@@ -31,11 +31,11 @@
         position: fixed;
     }
 
+    
+
     .icon-bar > a {
         width: 25%;
         display: block;
-        /* height: 145px;
-        height: 85px; */
         margin: auto;
     }
 
