@@ -589,7 +589,6 @@
         margin: 2vw;
     }
 
-
     .uid {
         font-size: 4vw;
         margin-top: 2vw;
@@ -627,8 +626,7 @@
         width: 6vw;
     }
 
-
-
+    /* ORDER INFO */
     .order-info {
         font-size: 5vw;
     }
@@ -678,18 +676,7 @@
 
 
         /* FOOTER RESPONSIBLE DESIGN */
-        @media only screen and (max-width: 395px) {
-            .footer {
-                height: 170px;
-            }
-        }
-    
-    
-        @media only screen and (max-width: 295px) {
-            .footer {
-                height: 200px;
-            }
-        }
+
         @media only screen and (max-width: 380px) {
             .footer {
                 height: 180px;

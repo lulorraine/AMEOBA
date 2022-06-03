@@ -45,8 +45,6 @@
         width: 30px;
         margin: auto;
         font-size: 30px;
-        /* padding-top: 27.5px; */
-        /* margin-left: 30px; */
         cursor: pointer;
         padding-left: 60px;
     }
@@ -231,12 +229,10 @@
         justify-content: end;
         font-size: 3vw;
     }
-    hr {
-        margin-top: 0;
-        margin-bottom: 1vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+    .amount {
+        text-align: right;
     }
+
     .order-info {
         margin: 0 10vw;
         display: flex;
@@ -244,6 +240,14 @@
         color: var(--colour-grey);
         font-size: 2vw;
     }
+
+    hr {
+        margin-top: 0;
+        margin-bottom: 1vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }    
+
     .total {
         font-size: 2.5vw;
         color: var(--colour-black);
@@ -528,7 +532,31 @@
             height: 16px;            
         }
         .footer {
-            margin-top: 30vw;
+            margin-top: 10vw;
+        }
+
+    /* ORDER INFO */
+        .product-amount {
+            font-size: 6vw;
+        }
+
+        .order-info {
+            font-size: 5vw;
+        }
+
+        .total {
+            font-size: 6vw;
+        }
+
+        .checkout-button {
+            font-size: 6vw;
+            height: 13vw;
+            width: 30vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+            margin-top: 8vw;
         }
     }
     
@@ -588,22 +616,11 @@
                 height: 165px;
             }
         }
-    
-        @media only screen and (max-width: 375px) {
-            .footer {
-                height: 180px;
-            }
-        }
-    
-        @media only screen and (max-width: 295px) {
-            .footer {
-                height: 200px;
-            }
-        }
+
         @media only screen and (max-width: 420px) {
             .footer {
                 height: 160px;
-                margin-top: 180px;
+                margin-top: 50px;
             }
         }
 
