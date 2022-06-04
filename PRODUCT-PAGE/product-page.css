@@ -5,11 +5,6 @@
     margin: 0;
 }
 
-.w {
-    width: 1000px;
-    margin: auto;
-}
-
 :root {
     --font-primary: "OCR A", ocr-a-extended;
 

@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-.w {
-    width: 1200px;
-    margin: auto;
-}
 
 :root {
     --font-primary: "OCR A", ocr-a-extended;
@@ -34,8 +30,6 @@
     .icon-bar > a {
         width: 25%;
         display: block;
-        /* height: 145px;
-        height: 85px; */
         margin: auto;
     }
 
@@ -45,30 +39,23 @@
         width: 30px;
         margin: auto;
         font-size: 30px;
-        /* padding-top: 27.5px; */
-        /* margin-left: 30px; */
         cursor: pointer;
         padding-left: 60px;
     }
 
     .search-results {
-        /* width: 15%; */
         height: 85px;
-        /* margin: auto; */
         font-size: 30px;
         padding-top: 27.5px;
         color: var(--colour-white);
     }
 
     .logo {
-        /* height: 85px;
-        width: 144.96px; */
         background-color: var(--colour-purple);
         color: var(--colour-white);
         font-size: 40px;
         text-align: center;
         text-decoration: none;
-        /* padding-right: 80px; */
     }
     
     .icon-bar-nav {

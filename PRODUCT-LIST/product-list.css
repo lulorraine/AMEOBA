@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-.w {
-    width: 1200px;
-    margin: auto;
-}
 
 :root {
     --font-primary: "OCR A", ocr-a-extended;
@@ -55,14 +51,11 @@
     }
 
     .logo {
-        /* height: 85px;
-        width: 144.96px; */
         background-color: var(--colour-purple);
         color: var(--colour-white);
         font-size: 40px;
         text-align: center;
         text-decoration: none;
-        /* padding-right: 80px; */
     }
     
     .icon-bar-nav {
@@ -721,7 +714,6 @@
             width: 30%;
         }
     }
-
 
     @media only screen and (max-width: 698px) {
         .newreleases {
