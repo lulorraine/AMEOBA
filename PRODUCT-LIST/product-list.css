@@ -4,7 +4,10 @@
     padding: 0;
     margin: 0;
 }
-
+.w {
+    width: 1200px;
+    margin: auto;
+}
 
 :root {
     --font-primary: "OCR A", ocr-a-extended;
